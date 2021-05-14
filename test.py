@@ -12,3 +12,7 @@ print("adding line 3")
 
 
 print('adding one')
+
+
+print('adding two')
+print('adding three')

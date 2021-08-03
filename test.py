@@ -23,3 +23,4 @@ print('testing --no-edit')
 
 print("Resetting test1")
 
+print('testing-2')

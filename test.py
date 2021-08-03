@@ -21,5 +21,5 @@ print('adding three')
 
 print('testing --no-edit')
 
-print("Resetting test")
+print("Resetting test1")
 

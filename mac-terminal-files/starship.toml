@@ -1,0 +1,72 @@
+# Minimal, clean, and very Fish-like prompt
+
+format = """$directory$git_branch$character"""
+add_newline = false
+
+[character]
+success_symbol = '[❯](bold green)'
+error_symbol = '[❯](bold red)'
+vicmd_symbol = '[N❯](bold blue)'
+
+[directory]
+style = "blue"
+read_only = " "
+truncation_length = 3
+truncate_to_repo = false
+format = "[$path]($style)[$read_only]($read_only_style) "
+
+[git_branch]
+symbol = " "
+style = "purple"
+format = "on [$symbol$branch]($style) "
+
+[git_status]
+disabled = true
+
+[cmd_duration]
+disabled = true
+
+[username]
+disabled = true
+
+[hostname]
+disabled = true
+
+[time]
+disabled = true
+
+[package]
+disabled = true
+
+[aws]
+disabled = true
+
+[python]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[dotnet]
+disabled = true
+
+[jobs]
+disabled = true
+
+[status]
+disabled = false
+format = "[$symbol]($style)"
+symbol = "✗"
+style = "red"
+
+# Optional: Uncomment to make even more minimal
+# right_format = ""
+
+# Optional: Add icons for read-only dirs
+#[directory.read_only]
+#style = "red"
+#format = " "
+
+# Remove all module decorations for a clean look
+[container]
+disabled = true
